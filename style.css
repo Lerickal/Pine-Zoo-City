@@ -1,0 +1,119 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 510;
+    width: 100%;
+    height: 81px;
+    background-image: url('images/wood-bg.png');
+    background-repeat: repeat-x;
+}
+
+#header img{
+    display: block;
+    margin: auto;
+    height: 72%;
+    padding-top: 15px;
+}
+
+#tabs-top{
+    position: fixed;
+    top: 81px;
+    left: 0;
+    z-index: 510;
+    width: 100%;
+    height: 42px;
+    background-color: darkgreen;
+}
+
+#tabs-top a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 36px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-top: 12px;
+}
+
+#main-home{
+    margin-top: 120px;
+}
+
+#tabs-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 42px;
+    background-color: forestgreen;
+}
+
+#tabs-bottom a{
+    float: left;
+    display: block;
+    width: 50%;
+    height: 36px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: none;
+}
+
+#main{
+    margin-top: 120px;
+    background: url('images/map-blur.png');
+    background-repeat: repeat-x;
+}
+
+#content{
+    padding-top: 3px;
+    padding-bottom: 51px;
+}
+
+a.info-box{
+    text-decoration: none;
+    background: rgb(255,225,55, .8);
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 3px;
+}
+
+.info-box img{
+    height: 72px;
+    margin: 12px;
+    float: left;
+}
+
+.info-box h3{
+    padding: 0;
+    margin-bottom: 0;
+    width: 90%;
+    color: #572800;
+}
+
+.info-box p{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    color: #131313;
+}
+
+.info-box img.right{
+    float: right;
+    margin-top: 27px;
+    height: 42px;
+}
